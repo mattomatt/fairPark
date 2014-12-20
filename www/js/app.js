@@ -5,5 +5,7 @@
 angular.module('fairPark', ['ionic','layout','map']);
 
 angular.module('layout', []);
-angular.module('map', ['uiGmapgoogle-maps']);
+angular.module('geolocation', []);
+angular.module('map', ['uiGmapgoogle-maps','geolocation']);
+
 

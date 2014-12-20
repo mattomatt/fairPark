@@ -1,8 +1,16 @@
 /* Empty. Add your own CSS if you like */
 
-
-.angular-google-map-container {
-    height: 400px;
-    width: 100%
+.scroll
+{
+    height: 100%;
 }
 
+#map
+{
+
+    height: 100% !important;
+}
+
+.angular-google-map-container {
+    height: 500px;
+}
